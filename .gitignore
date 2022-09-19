@@ -1,5 +1,4 @@
 .vscode/
 *.scss*
 *.sass*
-*.css*
 test.*
