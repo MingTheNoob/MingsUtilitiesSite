@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css" integrity="sha512-cn16Qw8mzTBKpu08X0fwhTSv02kK/FojjNLz0bwp2xJ4H+yalwzXKFw/5cLzuBZCxGWIA+95X4skzvo8STNtSg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css" integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.css" integrity="sha512-pJrGHWDVOeiy4UkMtHu0fpD8oLLssFcaW0fsVXUkA1/jDLopa554Z1AZo5SKtekHnnmyat0ipiP0snKDrt0GNg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.min.css" rel="stylesheet">
     <link href="https://cdn.ming.jp.net/root/css/main.css" rel="stylesheet">
     <!-- Fonts -->
     <link
@@ -51,149 +52,146 @@
 </head>
 
 <body>
-    <!-- ======= Top Bar ======= -->
-    <section id="topbar" class="d-flex align-items-center noselect">
-        <div class="container d-flex justify-content-center justify-content-md-between">
-            <div class="contact-info d-flex align-items-center">
-                <i class="bi bi-envelope d-flex align-items-center"><a
-                        href="mailto:support@utilities.ming.jp.net" target="_blank">Email</a></i>
-                <i class="bi bi-globe d-flex align-items-center ms-4"><a
-                        href="https://blitzcream.com" target="_blank">BlitzCream</a></i>
-                <i class="bi bi-exclamation-triangle-fill d-flex align-items-center ms-4"><a>WIP!</a></i>
-            </div>
-            <div class="social-links d-none d-md-flex align-items-center">
-                <a href="https://twitter.com/MingsUtilities" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="https://discord.com/invite/WaPgUY5gd4" target="_blank" class="discord"><i class="bi bi-discord"></i></a>
-                <a href="https://github.com/MingTheNoob" target="_blank" class="github"><i class="bi bi-github"></i></a>
-            </div>
-        </div>
-    </section>
+	<!-- ======= NavBar ======= -->
+	<header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+		<div class="container d-flex align-items-center justify-content-between">
+			<div class="logo">
+				<h1 id="heading-k8r59z"><a href="https://utilities.ming.jp.net">MingsUtilities</a></h1>
+			</div>
+			<nav id="navbar" class="navbar">
+				<ul>
+					<li>
+						<a class="nav-link scrollto" href="https://utilities.ming.jp.net">Home</a>
+					</li>
+					<li>
+						<a class="nav-link scrollto" href="https://utilities.ming.jp.net/about">About</a>
+					</li>
+					<li class="dropdown">
+						<a href="https://utilities.ming.jp.net/directory"><span>Directory</span> <i class="bi bi-chevron-down"></i></a>
+						<ul>
+							<li>
+								<a href="https://utilities.ming.jp.net/directory">Full Directory</a>
+							</li>
+							<li class="dropdown"><a href="https://utilities.ming.jp.net/web-tools"><span>WebTools</span> <i class="bi bi-chevron-right"></i></a>
+								<ul>
+									<li>
+										<a href="https://utilities.ming.jp.net/web-tools/userscripts">Userscripts</a>
+									</li>
+									<li>
+										<a href="https://utilities.ming.jp.net/web-tools/userstyles">Userstyles</a>
+									</li>
+									<li>
+										<a href="https://utilities.ming.jp.net/web-tools/extensions">Web Extensions</a>
+									</li>
+									<li>
+										<a href="https://utilities.ming.jp.net/web-tools/code-snippets">Code Snippets</a>
+									</li>
+									<li>
+										<a href="https://utilities.ming.jp.net/web-tools/random-apps">Random Apps</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="https://utilities.ming.jp.net/internet-tools">Internet Tools</a>
+							</li>
+							<li>
+								<a href="https://utilities.ming.jp.net/game-dev">GameDev</a>
+							</li>
+							<li>
+								<a href="https://github.com/MingTheNoob/MingsUtilitiesSite/issues">Request Item/Report Bug</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="nav-link scrollto active" href="https://utilities.ming.jp.net/donate">Donate</a>
+					</li>
+					<li>
+						<a class="nav-link scrollto" href="https://utilities.ming.jp.net/contact">Contact</a>
+					</li>
+					<li class="dropdown">
+						<a href="https://utilities.ming.jp.net"><strong>En</strong> <i class="bi bi-chevron-down"></i></a>
+						<ul>
+							<li>
+								<a href="https://utilities.ming.jp.net/zh/">中文</a>
+							</li>
+							<li>
+								<a href="https://utilities.ming.jp.net/de/">Deutsch</a>
+							</li>
+							<li>
+								<a href="https://utilities.ming.jp.net/fr/">Français</a>
+							</li>
+							<li>
+								<a href="https://utilities.ming.jp.net/ru/">Русский</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<i class="bi bi-list mobile-nav-toggle"></i>
+			</nav><!-- .navbar -->
+		</div>
+	</header><!-- End Header -->
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="d-flex align-items-center noselect">
-        <div class="container d-flex align-items-center justify-content-between">
+	<main id="main">
 
-            <h1 class="logo"><a href="https://utilities.ming.jp.net">MingsUtilities<span>.</span></a></h1>
+		<!-- ======= Breadcrumbs ======= -->
+		<section class="breadcrumbs">
+			<div class="container">
 
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a class="nav-link scrollto" href="https://utilities.ming.jp.net">Home</a></li>
-                    <li><a class="nav-link scrollto" href="https://utilities.ming.jp.net/about">About</a></li>
-                    <li><a class="nav-link scrollto" href="https://utilities.ming.jp.net/directory">Directory</a></li>
-                    <li><a class="nav-link scrollto" href="https://utilities.ming.jp.net/contact">Contact</a></li>
-                    <li><a class="nav-link scrollto active" href="https://utilities.ming.jp.net/donate">Donate</a></li>
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
+				<div class="d-flex justify-content-between align-items-center">
+					<h2>Donate to MingsUtilities</h2>
+					<ol>
+						<li><a href="https://utilities.ming.jp.net">Home</a></li>
+						<li>Donate</li>
+					</ol>
+				</div>
 
-        </div>
-    </header><!-- End Header -->
+			</div>
+		</section><!-- End Breadcrumbs -->
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center hero-height-adjust hero-height-adjust-main">
-        <div class="container" data-aos="zoom-out" data-aos-delay="100">
-            <h1>Coming Soon<span>!</span></h1>
-        </div>
-    </section><!-- End Hero -->
+		<section class="inner-page">
+			<div class="container">
+				<p>Currently you can donate here: <a href="https://ko-fi.com/mingthenoob">https://ko-fi.com/mingthenoob</a></p>
+			</div>
+			<div class="container" style="margin-top:5rem">
+				<p><i class="ri-service-fill"></i>&nbsp;Thank you for your support!</p>
+			</div>
+		</section>
 
-    <main id="main">
+		<!-- ======= Cta Section ======= -->
+		<section id="cta" class="cta">
+			<div class="container">
+				<div class="row" data-aos="zoom-out">
+					<div class="col-lg-9 text-center text-lg-start">
+						<h3>Join the Discord Server!</h3>
+						<p>Joining the Discord server is the easiest way to receive support. You can get support directly from Ming, if available, or you can get support by the others in the server.</p>
+					</div>
+					<div class="col-lg-3 cta-btn-container text-center">
+						<a class="cta-btn align-middle" href="https://discord.com/invite/WaPgUY5gd4">Join Server</a>
+					</div>
+				</div>
+			</div>
+		</section><!-- End Cta Section -->
 
-        <!-- ======= Featured Services ======= -->
-        <section id="featured-services" class="featured-services noselect">
-            <div class="container" data-aos="fade-up">
+	</main><!-- End #main -->
 
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon"><a href="https://utilities.ming.jp.net/discord"><i class="bx bxl-discord"></i></a></div>
-                            <h4 class="title"><a href="https://utilities.ming.jp.net/discord">Discord Services</a></h4>
-                            <p class="description">We plan to offer a few Discord services at some point, including
-                                tools to help ease your Discord use.</p>
-                        </div>
-                    </div>
+	<!-- ======= Footer ======= -->
+	<footer id="footer">
+		<div class="container">
+			<h3>MingsUtilities</h3>
+			<br>
+			<div class="social-links">
+				<a href="https://twitter.com/MingsUtilities" class="twitter"><i class="bi bi-twitter"></i></a>
+				<a href="https://github.com/MingTheNoob" class="github"><i class="bi bi-github"></i></a>
+				<a href="https://discord.com/invite/WaPgUY5gd4" class="discord"><i class="bi bi-discord"></i></a>
+			</div>
+			<div class="div-w29jdn">
+				<a href="https://utilities.ming.jp.net/legal/terms">Terms</a> &middot; <a href="https://utilities.ming.jp.net/legal/privacy">Privacy</a> &middot; <a href="https://utilities.ming.jp.net/legal/MPSL">MPSL</a>
+			</div>
+		</div>
+	</footer><!-- End Footer -->
 
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                            <div class="icon"><a href="https://utilities.ming.jp.net/web-tools"><i class="bx bx-world"></i></a></div>
-                            <h4 class="title"><a href="https://utilities.ming.jp.net/web-tools">Web Tools</a></h4>
-                            <p class="description">Various web tools including userscripts, web apps, and more,
-                                to help you on the web.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                            <div class="icon"><a href="https://utilities.ming.jp.net/internet-tools"><i class="bx bx-wifi"></i></a></div>
-                            <h4 class="title"><a href="https://utilities.ming.jp.net/internet-tools">Internet Tools</a></h4>
-                            <p class="description">Various internet tools to help you stay up to date on your internet
-                                and help keep you secure.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-                            <div class="icon"><a href="https://utilities.ming.jp.net/minecraft"><i class="bi bi-box"></i></a></div>
-                            <h4 class="title"><a href="https://utilities.ming.jp.net/minecraft">Minecraft</a></h4>
-                            <p class="description">We plan to offer a few
-                                Minecraft services at some point.</p>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </main><!-- End #main -->
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6 footer-contact">
-                        <h3>MingsUtilities<span>.</span></h3>
-                        <p>
-                            <strong>Email:</strong> support@utilities.ming.jp.net<br>
-                        </p>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Legal Stuff</h4>
-                        <ul>
-                            <li><a href="https://utilities.ming.jp.net/about">About</a></li>
-                            <li><a href="https://utilities.ming.jp.net/terms">Terms</a></li>
-                            <li><a href="https://utilities.ming.jp.net/privacy">Privacy</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><a href="https://blitzcream.com">BlitzCream</a></li>
-                            <li><a href="https://utilities.ming.jp.net/contact">Contact</a></li>
-                            <li><a href="https://utilities.ming.jp.net/directory">Directory</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Socials</h4>
-                        <div class="social-links mt-3">
-                            <a href="https://twitter.com/MingsUtilities" class="twitter"><i
-                                    class="bi bi-twitter"></i></a>
-                            <a href="https://github.com/MingTheNoob" class="github"><i class="bi bi-github"></i></a>
-                            <a href="https://discord.com/invite/WaPgUY5gd4" class="discord"><i
-                                class="bi bi-discord"></i></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </footer>
-    <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i>
-    </a>
-
+	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+			class="bi bi-arrow-up-short"></i></a>
     <!-- JS -->
     <script src="https://cdn.ming.jp.net/root/js/purecounter.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
