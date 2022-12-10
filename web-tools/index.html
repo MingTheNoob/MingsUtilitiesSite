@@ -3,218 +3,478 @@
 
 <head>
     <!-- Normal meta -->
-    <meta charset="UTF-8">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="description" content="Random web tools that are barely useful.">
-    <meta name="keywords" content="ming, Ming, Ming'sUtilities, MingsUtilities, mingsutilities, web, web-tools, web development">
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <meta name="title" content="Web Tools | MingsUtilities">
+    <meta charset="UTF-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="WebTools of MingsUtilities" />
+    <meta name="keywords" content="ming, Ming, Ming'sUtilities, MingsUtilities, mingsutilities, webtools, web, development" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <meta name="title" content="WebTools | MingsUtilities" />
     <!-- OpenGraph and Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://utilities.ming.jp.net/web-tools">
-    <meta property="og:title" content="Web Tools | MingsUtilities">
-    <meta property="og:description" content="Random web tools that are barely useful.">
-    <meta property="og:image" content="https://cdn.ming.jp.net/web-tools/imgs/cover.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://utilities.ming.jp.net/directory" />
+    <meta property="og:title" content="WebTools | MingsUtilities" />
+    <meta property="og:description" content="Directory of MingsUtilities" />
+    <meta property="og:image" content="https://cdn.ming.jp.net/utilities/imgs/logos/cover.png" />
     <!-- Twitter and Discord -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://utilities.ming.jp.net/web-tools/">
-    <meta name="twitter:title" content="Web Tools | MingsUtilities">
-    <meta name="twitter:description"
-        content="Random web tools that are barely useful.">
-    <meta name="twitter:image" content="https://cdn.ming.jp.net/web-tools/imgs/cover.png">
-    <meta name="twitter:creator" content="@MingTheNoob">
-    <meta name="twitter:site" content="@MingsUtilities">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://utilities.ming.jp.net/directory" />
+    <meta name="twitter:title" content="Directory | MingsUtilities" />
+    <meta name="twitter:description" content="Directory of MingsUtilities" />
+    <meta name="twitter:image" content="https://cdn.ming.jp.net/utilities/imgs/logos/cover.png" />
+    <meta name="twitter:creator" content="@MingTheNoob" />
+    <meta name="twitter:site" content="@MingsUtilities" />
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="192x192"
-        href="https://cdn.ming.jp.net/root/imgs/favicon/android-chrome-192x192.png">
+        href="https://cdn.ming.jp.net/utilities/imgs/favicon/android-chrome-192x192.png" />
     <link rel="icon" type="image/png" sizes="512x512"
-        href="https://cdn.ming.jp.net/root/imgs/favicon/android-chrome-512x512.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.ming.jp.net/root/imgs/favicon/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.ming.jp.net/root/imgs/favicon/favicon-32x32.png">
-    <link rel="apple-touch-icon" href="https://cdn.ming.jp.net/root/imgs/favicon/apple-touch-icon.png">
-    <link rel="shortcut icon" href="https://cdn.ming.jp.net/root/imgs/favicon/favicon.ico">
+        href="https://cdn.ming.jp.net/utilities/imgs/favicon/android-chrome-512x512.png" />
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://cdn.ming.jp.net/utilities/imgs/favicon/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://cdn.ming.jp.net/utilities/imgs/favicon/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="https://cdn.ming.jp.net/utilities/imgs/favicon/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="https://cdn.ming.jp.net/utilities/imgs/favicon/favicon.ico" />
     <!-- CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css" integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css" integrity="sha512-cn16Qw8mzTBKpu08X0fwhTSv02kK/FojjNLz0bwp2xJ4H+yalwzXKFw/5cLzuBZCxGWIA+95X4skzvo8STNtSg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css" integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.css" integrity="sha512-pJrGHWDVOeiy4UkMtHu0fpD8oLLssFcaW0fsVXUkA1/jDLopa554Z1AZo5SKtekHnnmyat0ipiP0snKDrt0GNg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link href="https://cdn.ming.jp.net/root/css/main-old.css" rel="stylesheet">
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css"
+        integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"
+        integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css"
+        integrity="sha512-cn16Qw8mzTBKpu08X0fwhTSv02kK/FojjNLz0bwp2xJ4H+yalwzXKFw/5cLzuBZCxGWIA+95X4skzvo8STNtSg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css"
+        integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.css"
+        integrity="sha512-pJrGHWDVOeiy4UkMtHu0fpD8oLLssFcaW0fsVXUkA1/jDLopa554Z1AZo5SKtekHnnmyat0ipiP0snKDrt0GNg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css"
+        integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.min.css" rel="stylesheet" />
+    <link href="https://cdn.ming.jp.net/utilities/css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.ming.jp.net/utilities/css/directory.css" />
     <!-- Fonts -->
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
+        rel="stylesheet" />
     <!-- Title -->
-    <title>Web Tools | MingsUtilities</title>
+    <title>Directory | MingsUtilities</title>
 </head>
 
 <body>
-    <!-- ======= Top Bar ======= -->
-    <section id="topbar" class="d-flex align-items-center noselect">
-        <div class="container d-flex justify-content-center justify-content-md-between">
-            <div class="contact-info d-flex align-items-center">
-                <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:support@utilities.ming.jp.net"
-                        target="_blank">Email</a></i>
-                <i class="bi bi-globe d-flex align-items-center ms-4"><a href="https://blitzcream.com"
-                        target="_blank">BlitzCream</a></i>
-                <i class="bi bi-exclamation-triangle-fill d-flex align-items-center ms-4"><a>WIP!</a></i>
-            </div>
-            <div class="social-links d-none d-md-flex align-items-center">
-                <a href="https://twitter.com/MingsUtilities" target="_blank" class="twitter"><i
-                        class="bi bi-twitter"></i></a>
-                <a href="https://discord.com/invite/WaPgUY5gd4" target="_blank" class="discord"><i class="bi bi-discord"></i></a>
-                <a href="https://github.com/MingTheNoob" target="_blank" class="github"><i class="bi bi-github"></i></a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ======= Header ======= -->
-    <header id="header" class="d-flex align-items-center noselect">
+    <!-- ======= NavBar ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
         <div class="container d-flex align-items-center justify-content-between">
-
-            <h1 class="logo"><a href="https://utilities.ming.jp.net">MingsUtilities<span>.</span></a></h1>
-
+            <div class="logo">
+                <h1 id="heading-k8r59z"><a href="/">MingsUtilities</a></h1>
+            </div>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto" href="https://utilities.ming.jp.net">Home</a></li>
-                    <li><a class="nav-link scrollto" href="https://utilities.ming.jp.net/about">About</a></li>
-                    <li><a class="nav-link scrollto" href="https://utilities.ming.jp.net/directory">Directory</a>
+                    <li>
+                        <a class="nav-link scrollto" href="/">Home</a>
                     </li>
-                    <li><a class="nav-link scrollto" href="https://utilities.ming.jp.net/contact">Contact</a></li>
-                    <li><a class="nav-link scrollto" href="https://utilities.ming.jp.net/donate">Donate</a></li>
+                    <li>
+                        <a class="nav-link scrollto" href="/about">About</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="active" href="/directory"><span>Directory</span>
+                            <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li>
+                                <a class="active" href="/directory">Full Directory</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="/web-tools"><span>WebTools</span>
+                                    <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li>
+                                        <a href="/web-tools/userscripts">Userscripts</a>
+                                    </li>
+                                    <li>
+                                        <a href="/web-tools/userstyles">Userstyles</a>
+                                    </li>
+                                    <li>
+                                        <a href="/web-tools/extensions">Web Extensions</a>
+                                    </li>
+                                    <li>
+                                        <a href="/web-tools/code-snippets">Code Snippets</a>
+                                    </li>
+                                    <li>
+                                        <a href="/web-tools/random-apps">Random Apps</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="/internet-tools">Internet Tools</a>
+                            </li>
+                            <li>
+                                <a href="/game-dev">GameDev</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/MingTheNoob/issues/issues">Request Item/Report
+                                    Bug</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto" href="/donate">Donate</a>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto" href="/contact">Contact</a>
+                    </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
-
+            </nav>
+            <!-- .navbar -->
         </div>
-    </header><!-- End Header -->
-
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center hero-height-adjust">
-        <div class="container" data-aos="zoom-out" data-aos-delay="100">
-            <h3 class="directory-list-h3">List of Web Tools:</h3>
-            <ul>
-                <li>
-                    <a href="https://utilities.ming.jp.net/web-tools/gdrive-dl-link-generator">GDrive Download Link Generator</a>
-                    <p class="directory-list-p">Takes a Google Drive share link and returns the download link.</p>
-                </li>
-                <li>
-                    <a href="https://utilities.ming.jp.net/web-tools/qr-code-generator">QR Code Generator</a>
-                    <p class="directory-list-p">Converts text to QR code.</p>
-                </li>
-                <li>
-                    <a href="https://utilities.ming.jp.net/web-tools/pw-gen">Password Generator</a>
-                    <p class="directory-list-p">Generates a password with a few tweaking options.</p>
-                </li>
-            </ul>
-        </div>
-    </section><!-- End Hero -->
+    </header>
+    <!-- End Header -->
 
     <main id="main">
-        <!-- ======= Featured Services ======= -->
-        <section id="featured-services" class="featured-services noselect">
-            <div class="container" data-aos="fade-up">
+        <!-- ======= Breadcrumbs ======= -->
+        <section class="breadcrumbs">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2>Full Directory</h2>
+                    <ol>
+                        <li><a href="/">Home</a></li>
+                        <li>Directory</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <!-- End Breadcrumbs -->
 
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon"><a href="https://utilities.ming.jp.net/web-tools/gdrive-dl-link-generator"><i class="bx bxl-google"></i></a></div>
-                            <h4 class="title"><a href="https://utilities.ming.jp.net/web-tools/gdrive-dl-link-generator">Google Drive Link Generator</a></h4>
-                            <p class="description">Quickly convert your share link to a download link.</p>
+        <section class="inner-page">
+            <div class="container">
+                <p>
+                    Currently we only have random apps that may serve as a
+                    base for future apps. If you'd like to preview those,
+                    you can see them
+                    <a href="/web-tools/" target="_blank">here</a>.
+                </p>
+            </div>
+            <div class="container" style="margin-top: 5rem">
+                <p>
+                    <i class="ri-todo-fill"></i>&nbsp;More is to come! Below
+                    is what we're planning.
+                </p>
+            </div>
+        </section>
+
+        <section id="timeline" class="content-wfih38">
+            <div class="row">
+                <h1 id="h1-timeline-129ruf">Timeline</h1>
+                <div class="col-md-3">
+                    <div class="grid support">
+                        <div class="grid-body">
+                            <h2>Browse</h2>
+
+                            <hr />
+
+                            <ul>
+                                <li id="wtmenubtn-289fhf" class="active cursor-pointer">
+                                    <a id="web-tools-w89r72">
+                                        Web Tools
+                                        <span class="fa-pull-right">5</span>
+                                    </a>
+                                </li>
+                                <li id="itmenubtn-f28gfh" class="cursor-pointer">
+                                    <a>
+                                        Internet Tools
+                                        <span class="fa-pull-right">1</span>
+                                    </a>
+                                </li>
+                                <li id="othermenubtn-f823hf" class="cursor-pointer">
+                                    <a>Other<span class="fa-pull-right">2</span></a>
+                                </li>
+                            </ul>
+
+                            <hr />
+
+                            <p><strong>Released</strong></p>
+                            <ul id="released-c73bc3" class="support-label">
+                                <li class="main-list-item-cvb83bn">
+                                    <a href="https://github.com/MingTheNoob/WebTools">
+                                        &nbsp;<i class="bi bi-github"></i>
+                                        &nbsp;WebTools
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="btn-group-ci2n92 btn-group">
+                                        <a href="https://github.com/MingTheNoob/GDriveDownloadLinkGenerator">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-arrow-return-right"></i>
+                                            &nbsp;GDrive DL Link Generator
+                                        </a>
+                                        <span>&nbsp;| &nbsp;</span>
+                                        <a href="/web-tools/gdrive-dl-link-generator">
+                                            <i class="link-hover-92hc22 bi bi-link-45deg"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="btn-group-ci2n92 btn-group">
+                                        <a href="https://github.com/MingTheNoob/QRCodeGenerator">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-arrow-return-right"></i>
+                                            &nbsp;QR Code Generator
+                                        </a>
+                                        <span>&nbsp;| &nbsp;</span>
+                                        <a href="/web-tools/qr-code-generator">
+                                            <i class="link-hover-92hc22 bi bi-link-45deg"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="btn-group-ci2n92 btn-group">
+                                        <a href="https://github.com/MingTheNoob/PasswordGenerator">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-arrow-return-right"></i>
+                                            &nbsp;Password Generator
+                                        </a>
+                                        <span>&nbsp;| &nbsp;</span>
+                                        <a href="/web-tools/pw-gen">
+                                            <i class="link-hover-92hc22 bi bi-link-45deg"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <br>
+                                <li class="main-list-item-cvb83bn">
+                                    <a href="https://github.com/MingTheNoob/MingsUtilitiesSite">
+                                        &nbsp;<i class="bi bi-github"></i>
+                                        &nbsp;MingsUtilitiesSite
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="btn-group-ci2n92 btn-group">
+                                        <a href="https://github.com/MingTheNoob/MingsCDN">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-arrow-return-right"></i>
+                                            &nbsp;Old Site Code
+                                        </a>
+                                        <span>&nbsp;| &nbsp;</span>
+                                        <a href="https://cdn.ming.jp.net/">
+                                            <i class="link-hover-92hc22 bi bi-link-45deg"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-9">
+                    <div id="ticket-9d2hc8" class="grid support-content">
+                        <div class="grid-body">
+                            <h2 id="projects-h2-29dhn92">Web Tools Projects</h2>
 
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                            <div class="icon"><a href="https://utilities.ming.jp.net/web-tools/qr-code-generator"><i class="bx bx-qr"></i></a></div>
-                            <h4 class="title"><a href="https://utilities.ming.jp.net/web-tools/qr-code-generator">QR Code Generator</a></h4>
-                            <p class="description">Quickly convert text to QR code.</p>
-                        </div>
-                    </div>
+                            <hr />
 
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                            <div class="icon"><a href="https://utilities.ming.jp.net/web-tools/pw-gen"><i class="bx bx-key"></i></a></div>
-                            <h4 class="title"><a href="https://utilities.ming.jp.net/web-tools/pw-gen">Password Generator</a></h4>
-                            <p class="description">Quickly generate secure passwords.</p>
-                        </div>
-                    </div>
+                            <div class="btn-group">
+                                <button id="btn-finished-1238ch78" type="button" class="btn btn-dark active">
+                                    4 Finished
+                                </button>
+                                <button id="btn-planned-f3v80h3" type="button" class="btn btn-dark">
+                                    1 Planned
+                                </button>
+                            </div>
+                            &nbsp;
+                            <a target="_blank" href="https://github.com/MingTheNoob/issues/issues">
+                                <button type="button" class="btn btn-success pull-right">
+                                    New Issue
+                                    <i class="bi bi-github"></i>
+                                </button>
+                            </a>
+                            <div class="padding"></div>
 
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-                            <div class="icon"><a href="https://utilities.ming.jp.net/directory"><i class="bx bx-right-arrow-alt"></i></a></div>
-                            <h4 class="title"><a href="https://utilities.ming.jp.net/directory">Back to Directory</a></h4>
-                            <p class="description">Go back to the main directory.</p>
-                            </p>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="list-group fa-padding">
+                                        <li class="list-group-item-ifh29f2">
+                                            <div class="media">
+                                                <h4 id="h4-1outof4-2d9hfc29" class="h4-project-title-2f9h2f">GDrive Download Link Generator</h4>
+                                                <div class="media-body">
+                                                    <i id="progress-icon-fo03h93hc" class="ri-check-double-line"></i>
+                                                    <strong id="p-tdescription-9dh29dn">
+                                                        Project is finished and there will likely be no future updates.
+                                                    </strong>
+                                                    <div class="info">
+                                                        <a id="a-href-github-209rd9n8d2" href="https://github.com/MingTheNoob/GDriveDownloadLinkGenerator" target="_blank">
+                                                            <i class="bi bi-github"></i>
+                                                        </a>
+                                                        &nbsp;&middot;&nbsp;
+                                                        <a id="a-href-link-f9h892" href="/web-tools/gdrive-dl-link-generator" target="_blank">
+                                                            <i class="bi bi-link-45deg"></i>
+                                                        </a>
+                                                        &nbsp;&middot;&nbsp;
+                                                        <div id="circle-type-9f2j45g" class="webapp-mark-39f7cg btn-group">
+                                                            <i class="bi bi-circle-fill"></i>&nbsp;
+                                                            <span id="circle-label-2d89hf29h">Web App</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li id="2nd-item-v98h30" class="list-group-item-ifh29f2">
+                                            <div class="media">
+                                                <h4 id="h4-2outof4-c8hve8a" class="h4-project-title-2f9h2f">QR Code Generator</h4>
+                                                <div class="media-body">
+                                                    <i id="progress-icon-f893hus" class="ri-check-double-line"></i>
+                                                    <strong id="p-tdescription-2d9h2g4hg">
+                                                        Project is finished and there may be future updates.
+                                                    </strong>
+                                                    <div class="info">
+                                                        <a id="a-href-github-cv03q8hf" href="https://github.com/MingTheNoob/QRCodeGenerator" target="_blank">
+                                                            <i class="bi bi-github"></i>
+                                                        </a>
+                                                        &nbsp;&middot;&nbsp;
+                                                        <a id="a-href-link-8f3hu83b" href="/web-tools/qr-code-generator" target="_blank">
+                                                            <i class="bi bi-link-45deg"></i>
+                                                        </a>
+                                                        &nbsp;&middot;&nbsp;
+                                                        <div id="circle-type-viesnv3" class="webapp-mark-39f7cg btn-group">
+                                                            <i class="bi bi-circle-fill"></i>&nbsp;
+                                                            <span id="circle-label-6a84fc6a1w">Web App</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li id="3rd-item-f92h92" class="list-group-item-ifh29f2">
+                                            <div class="media">
+                                                <h4 id="h4-3outof4-v39hcv398" class="h4-project-title-2f9h2f">Password Generator</h4>
+                                                <div class="media-body">
+                                                    <i id="progress-icon-9f2h9f2" class="ri-checkbox-circle-line"></i>
+                                                    <strong>
+                                                        Project is finished and there will be future updates.
+                                                    </strong>
+                                                    <div class="info">
+                                                        <a id="a-href-github-ic7gwc28g28" href="https://github.com/MingTheNoob/PasswordGenerator" target="_blank">
+                                                            <i class="bi bi-github"></i>
+                                                        </a>
+                                                        &nbsp;&middot;&nbsp;
+                                                        <a id="a-href-link-03h8vc8nv" href="/web-tools/pw-gen" target="_blank">
+                                                            <i class="bi bi-link-45deg"></i>
+                                                        </a>
+                                                        &nbsp;&middot;&nbsp;
+                                                        <div class="webapp-mark-39f7cg btn-group">
+                                                            <i class="bi bi-circle-fill"></i>&nbsp;
+                                                            <span>Web App</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li id="4th-item-83hgft" class="list-group-item-ifh29f2">
+                                            <div class="media">
+                                                <h4 id="h4-4outof4-83hv3v8" class="h4-project-title-2f9h2f">QuickLinks</h4>
+                                                <div class="media-body">
+                                                    <i id="progress-icon-f83h8f3dw" class="ri-checkbox-circle-line"></i>
+                                                    <strong id="p-tdescription-3f7gw3gfx2">
+                                                        Project is in beta and there will be future updates.
+                                                    </strong>
+                                                    <div class="info">
+                                                        <a id="a-href-github-72fdg7gd2" href="https://github.com/MingTheNoob/QuickLinks" target="_blank">
+                                                            <i class="bi bi-github"></i>
+                                                        </a>
+                                                        &nbsp;&middot;&nbsp;
+                                                        <a id="a-href-link-f823gh73g" href="/web-tools/extensions/QuickLinks" target="_blank">
+                                                            <i class="bi bi-link-45deg"></i>
+                                                        </a>
+                                                        &nbsp;&middot;&nbsp;
+                                                        <div id="circle-type-viesnv3" class="webext-mark-c923ncv39 btn-group">
+                                                            <i class="bi bi-circle-fill"></i>&nbsp;
+                                                            <span id="circle-label-6a84fc6a1w">Web Extension</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section id="timeline-mobile" class="text-center">
+            <h2>Mobile timeline coming soon!</h2>
+            <p>Please view on desktop</p>
+        </section>
+
+        <!-- ======= Cta Section ======= -->
+        <section id="cta" class="cta">
+            <div class="container">
+                <div class="row" data-aos="zoom-out">
+                    <div class="col-lg-9 text-center text-lg-start">
+                        <h3>Join the Discord Server!</h3>
+                        <p>
+                            Those upcoming projects are going to take a lot
+                            of time to complete. With your help and
+                            contributions, we can speed up the process and
+                            get the projects done faster! Join the Discord
+                            server to share your ideas and help us make the
+                            projects better and faster!
+                        </p>
+                    </div>
+                    <div class="col-lg-3 cta-btn-container text-center">
+                        <a class="cta-btn align-middle" href="https://discord.com/invite/WaPgUY5gd4">Join Server</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Cta Section -->
     </main>
+    <!-- End #main -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
-
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6 footer-contact">
-                        <h3>MingsUtilities<span>.</span></h3>
-                        <p>
-                            <strong>Email:</strong> support@utilities.ming.jp.net<br>
-                        </p>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Legal Stuff</h4>
-                        <ul>
-                            <li><a href="https://utilities.ming.jp.net/about">About</a></li>
-                            <li><a href="https://utilities.ming.jp.net/terms">Terms</a></li>
-                            <li><a href="https://utilities.ming.jp.net/privacy">Privacy</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><a href="https://blitzcream.com">BlitzCream</a></li>
-                            <li><a href="https://utilities.ming.jp.net/contact">Contact</a></li>
-                            <li><a href="https://utilities.ming.jp.net/directory">Directory</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Socials</h4>
-                        <div class="social-links mt-3">
-                            <a href="https://twitter.com/MingsUtilities" class="twitter"><i
-                                    class="bi bi-twitter"></i></a>
-                            <a href="https://github.com/MingTheNoob" class="github"><i class="bi bi-github"></i></a>
-                            <a href="https://discord.com/invite/WaPgUY5gd4" class="discord"><i class="bi bi-discord"></i></a>
-                        </div>
-                    </div>
-
-                </div>
+        <div class="container">
+            <h3>MingsUtilities</h3>
+            <br />
+            <div class="social-links">
+                <a href="https://twitter.com/MingsUtilities" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://github.com/MingTheNoob" class="github"><i class="bi bi-github"></i></a>
+                <a href="https://discord.com/invite/WaPgUY5gd4" class="discord"><i class="bi bi-discord"></i></a>
+            </div>
+            <div class="div-w29jdn">
+                <a href="/legal/terms">Terms</a> &middot;
+                <a href="/legal/privacy">Privacy</a> &middot;
+                <a href="/legal/MPSL">MPSL</a>
             </div>
         </div>
     </footer>
-    <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i>
-    </a>
+    <!-- End Footer -->
 
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
     <!-- JS -->
-    <script src="https://cdn.ming.jp.net/root/js/purecounter.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.bundle.min.js" integrity="sha512-BOsvKbLb0dB1IVplOL9ptU1EYA+LuCKEluZWRUYG73hxqNBU85JBIBhPGwhQl7O633KtkjMv8lvxZcWP+N3V3w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js" integrity="sha512-S/H9RQ6govCzeA7F9D0m8NGfsGf0/HjJEiLEfWGaMCjFzavo+DkRbYtZLSO+X6cZsIKQ6JvV/7Y9YMaYnSGnAA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js" integrity="sha512-k2o1KZdvUi59PUXirfThShW9Gdwtk+jVYum6t7RmyCNAVyF9ozijFpvLEWmpgqkHuqSWpflsLf5+PEW6Lxy/wA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdn.ming.jp.net/root/js/validate.js"></script>
-    <script src="https://cdn.ming.jp.net/root/js/main-old.js"></script>
+    <script src="https://cdn.ming.jp.net/utilities/js/purecounter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.bundle.min.js"
+        integrity="sha512-BOsvKbLb0dB1IVplOL9ptU1EYA+LuCKEluZWRUYG73hxqNBU85JBIBhPGwhQl7O633KtkjMv8lvxZcWP+N3V3w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"
+        integrity="sha512-S/H9RQ6govCzeA7F9D0m8NGfsGf0/HjJEiLEfWGaMCjFzavo+DkRbYtZLSO+X6cZsIKQ6JvV/7Y9YMaYnSGnAA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+        integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js"
+        integrity="sha512-k2o1KZdvUi59PUXirfThShW9Gdwtk+jVYum6t7RmyCNAVyF9ozijFpvLEWmpgqkHuqSWpflsLf5+PEW6Lxy/wA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
+        integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.ming.jp.net/utilities/js/main.js"></script>
+    <script src="https://cdn.ming.jp.net/utilities/js/directory.js"></script>
 </body>
 
 </html>
