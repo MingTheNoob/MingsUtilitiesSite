@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Normal meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="description" content="QuickLinks by MingsUtilities">
+    <meta name="keywords"
+        content="MingsUtilities, Ming, Ming's Utilities, Ming's Utilities Team, Ming's Utilities Team, web, extensions, extension, webext, ext, firefox, chrome, quicklinks">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta name="title" content="QuickLinks | MingsUtilities">
+    <!-- OpenGraph and Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mingsutilities.com/web-tools/extensions/QuickLinks">
+    <meta property="og:title" content="QuickLinks | MingsUtilities">
+    <meta property="og:description" content="QuickLinks by MingsUtilities">
+    <meta property="og:image"
+        content="https://cdn.mingsutilities.com/utilities/web-tools/extensions/quicklinks/imgs/cover.png">
+    <!-- Twitter and Discord -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://mingsutilities.com/web-tools/extensions/QuickLinks">
+    <meta name="twitter:title" content="QuickLinks | MingsUtilities">
+    <meta name="twitter:description" content="QuickLinks by MingsUtilities">
+    <meta name="twitter:image"
+        content="https://cdn.mingsutilities.com/utilities/web-tools/extensions/quicklinks/imgs/cover.png">
+    <meta name="twitter:creator" content="@MingTheNoob">
+    <meta name="twitter:site" content="@MingsUtilities">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="192x192"
+        href="https://cdn.mingsutilities.com/utilities/imgs/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512"
+        href="https://cdn.mingsutilities.com/utilities/imgs/favicon/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://cdn.mingsutilities.com/utilities/imgs/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://cdn.mingsutilities.com/utilities/imgs/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="https://cdn.mingsutilities.com/utilities/imgs/favicon/apple-touch-icon.png">
+    <link rel="shortcut icon" href="https://cdn.mingsutilities.com/utilities/imgs/favicon/favicon.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css"
+        integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"
+        integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css"
+        integrity="sha512-cn16Qw8mzTBKpu08X0fwhTSv02kK/FojjNLz0bwp2xJ4H+yalwzXKFw/5cLzuBZCxGWIA+95X4skzvo8STNtSg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css"
+        integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.css"
+        integrity="sha512-pJrGHWDVOeiy4UkMtHu0fpD8oLLssFcaW0fsVXUkA1/jDLopa554Z1AZo5SKtekHnnmyat0ipiP0snKDrt0GNg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.min.css" rel="stylesheet">
+    <link href="https://cdn.mingsutilities.com/utilities/css/main.css" rel="stylesheet">
+    <!-- Title -->
+    <title>QuickLinks | MingsUtilities</title>
+</head>
+
+<body>
+    <!-- ======= NavBar ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="logo">
+                <h1 id="heading-k8r59z"><a href="/">MingsUtilities</a></h1>
+            </div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li>
+                        <a class="nav-link scrollto" href="/">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto" href="/about">About</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="/directory" class="active"><span>Directory</span> <i
+                                class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li>
+                                <a href="/directory">Full Directory</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="/web-tools" class="active"><span>WebTools</span>
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="/web-tools/userscripts">Userscripts</a>
+                                    </li>
+                                    <li>
+                                        <a href="/web-tools/userstyles">Userstyles</a>
+                                    </li>
+                                    <li>
+                                        <a href="/web-tools/extensions" class="active">Web Extensions</a>
+                                    </li>
+                                    <li>
+                                        <a href="/web-tools/code-snippets">Code Snippets</a>
+                                    </li>
+                                    <li>
+                                        <a href="/web-tools/random-apps">Random Apps</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="/internet-tools">Internet Tools</a>
+                            </li>
+                            <li>
+                                <a href="/game-dev">GameDev</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/MingTheNoob/issues/issues" target="_blank">Request
+                                    Item/Report Bug</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto" href="/donate">Donate</a>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto" href="/contact">Contact</a>
+                    </li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+        </div>
+    </header><!-- End Header -->
+
+    <main id="main">
+
+        <!-- ======= Breadcrumbs ======= -->
+        <section class="breadcrumbs">
+            <div class="container">
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2>QuickLinks</h2>
+                    <ol>
+                        <li><a href="/web-tools/extensions/">Extensions</a></li>
+                        <li>QuickLinks</li>
+                    </ol>
+                </div>
+
+            </div>
+        </section><!-- End Breadcrumbs -->
+
+        <!-- ======= Features Section ======= -->
+        <section id="features" class="features">
+            <div class="container">
+
+                <ul class="nav nav-tabs row d-flex">
+                    <li class="nav-item col-3" data-aos="zoom-in">
+                        <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+                            <i class="ri-link-unlink"></i>
+                            <h4 class="d-none d-lg-block">About QuickLinks</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+                            <i class="bi bi-download"></i>
+                            <h4 class="d-none d-lg-block">Download</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+                            <i class="ri-calendar-todo-fill"></i>
+                            <h4 class="d-none d-lg-block">Updates</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+                            <i class="ri-code-line"></i>
+                            <h4 class="d-none d-lg-block">Commands</h4>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="tab-content" data-aos="fade-up">
+                    <div class="tab-pane active show" id="tab-1">
+                        <div class="row row-c892ghf92">
+                            <br>
+                            <div class="col-lg-6 order-1 order-lg-2 text-center">
+                                <img src="https://cdn.mingsutilities.com/utilities/web-tools/extensions/quicklinks/imgs/cover.png"
+                                    alt="QuickLinks" class="img-fluid" style="border-radius: .8rem;width: 40rem;" />
+                            </div>
+                            <br>
+                            <br>
+                            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                                <h3>About QuickLinks</h3>
+                                <hr>
+                                <br>
+                                <p class="fst-italic">
+                                    QuickLinks is an extension that allows you to quickly access webpages by typing a
+                                    command
+                                    and then a value.
+                                </p>
+                                <br>
+                                <h6>Supported default sites:</h6>
+                                <ul>
+                                    <li><i class="ri-check-line"></i>Reddit</li>
+                                    <li><i class="ri-check-line"></i>GitHub</li>
+                                    <li><i class="ri-check-line"></i>Discord</li>
+                                    <li><i class="ri-check-line"></i>YouTube</li>
+                                    <li><i class="ri-check-line"></i>Twitter</li>
+                                    <li><i class="ri-check-line"></i>Twitch</li>
+                                </ul>
+                                <p>
+                                    Press the commands button to see all the commands.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-2">
+                        <div class="row row-c892ghf92">
+                            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                                <h3>Currently, QuickLinks is only available for Firefox<sup><i
+                                            class="ri-firefox-fill"></i></sup> based browsers.</h3>
+                                <hr>
+                                <br>
+                                <p>
+                                    Click <a href="https://addons.mozilla.org/en-US/firefox/addon/quicklinks/"
+                                        target="_blank">here</a> to go to the download page.
+                                </p>
+                                <br>
+                                <p>
+                                    The Chromium extension will be released in beta soon.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-3">
+                        <div class="row row-c892ghf92">
+                            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                                <h5>
+                                    Below are the planned, upcoming updates for QuickLinks:
+                                </h5>
+                                <br>
+                                <ul>
+                                    <li>
+                                        <i class="ri-calendar-todo-fill"></i> Add and edit your own custom comands
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <i class="ri-calendar-todo-fill"></i> Update the UI to be more user friendly and
+                                        cater to the new features
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <i class="ri-calendar-todo-fill"></i> Redirect incorrect commands to the default
+                                        search engine as a search query
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-4">
+                        <div class="row row-c892ghf92">
+                            <div id="quicklinks-cmds-list" class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 container quicklinks-cmds-list">
+                                <div class="section-title" data-aos="zoom-out">
+                                    <h2>Default Commands</h2>
+                                </div>
+                                <ul class="faq-list">
+                                    <li>
+                                        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">
+                                            Reddit
+                                            <i class="bi bi-reddit icon-show" style="color: #ff5700;"></i>
+                                            <i class="bi bi-reddit icon-close" style="color: #ff5700;"></i>
+                                        </div>
+                                        <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                                            <p>
+                                                <code>u/</code> - Search for a Reddit user. Example: <code style="color: inherit;background-color: rgb(46, 46, 46);">ql u/username</code>
+                                                <br>
+                                                <code>r/</code> - Search for a subreddit. Example: <code style="color: inherit;background-color: rgb(46, 46, 46);">ql r/subreddit</code>
+                                                <br>
+                                                <code>s/</code> - Make a general search on Reddit. Example: <code style="color: inherit;background-color: rgb(46, 46, 46);">ql s/example search on reddit</code>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">
+                                            GitHub
+                                            <i class="bi bi-github icon-show" style="color: #fff;"></i>
+                                            <i class="bi bi-github icon-close" style="color: #fff;"></i>
+                                        </div>
+                                        <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                                            <p>
+                                                <code>gh@</code> - Search for a GitHub user. Example: <code style="color: inherit;background-color: rgb(46, 46, 46);">ql gh@username</code> or <code style="color: inherit;background-color: rgb(46, 46, 46);">ql gh@username/repository</code>
+                                                <br>
+                                                <code>gh=</code> - Make a general search on GitHub. Example: <code style="color: inherit;background-color: rgb(46, 46, 46);">ql gh=example search on github</code>
+                                            </p>
+                                        </div>
+                                    </li>
+                
+                                    <li>
+                                        <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">
+                                            Discord
+                                            <i class="bi bi-discord icon-show" style="color: #6370f4;"></i>
+                                            <i class="bi bi-discord icon-close" style="color: #6370f4;"></i>
+                                        </div>
+                                        <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                                            <p>
+                                                <code>.gg/</code> - Enter a Discord invite code. Example: <code style="color: inherit;background-color: rgb(46, 46, 46);">ql .gg/invitecode</code>
+                                            </p>
+                                        </div>
+                                    </li>
+                
+                                    <li>
+                                        <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">
+                                            YouTube
+                                            <i class="bi bi-youtube icon-show" style="color: #f00;"></i>
+                                            <i class="bi bi-youtube icon-close" style="color: #f00;"></i>
+                                        </div>
+                                        <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                                            <p>
+                                                <code>yt@</code> - Search for a YouTube user. Example: <code style="color: inherit;background-color: rgb(46, 46, 46);">ql yt@username</code>
+                                                <br>
+                                                <code>yt=</code> - Make a general search on YouTube. Example: <code style="color: inherit;background-color: rgb(46, 46, 46);">ql yt=example search on youtube</code>
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">
+                                            Twitter
+                                            <i class="bi bi-twitter icon-show" style="color: #31a4f1;"></i>
+                                            <i class="bi bi-twitter icon-close" style="color: #31a4f1;"></i>
+                                        </div>
+                                        <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                                            <p>
+                                                <code>tw@</code> - Search for a Twitter user. Example: <code style="color: inherit;background-color: rgb(46, 46, 46);">ql tw@username</code>
+                                                <br>
+                                                <code>tw=</code> - Make a general search on Twitter. Example: <code style="color: inherit;background-color: rgb(46, 46, 46);">ql tw=example search on twitter</code>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">
+                                            Twitch
+                                            <i class="bi bi-twitch icon-show" style="color: #a970ff;"></i>
+                                            <i class="bi bi-twitch icon-close" style="color: #a970ff;"></i>
+                                        </div>
+                                        <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+                                            <p>
+                                                <code>twitch@</code> - Search for a Twitch user. Example: <code style="color: inherit;background-color: rgb(46, 46, 46);">ql twitch@username</code>
+                                                <br>
+                                                <code>twitch=</code> - Make a general search on Twitch. Example: <code style="color: inherit;background-color: rgb(46, 46, 46);">ql twitch=example search on twitch</code>
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Features Section -->
+
+        <!-- ======= Cta Section ======= -->
+        <section id="cta" class="cta">
+            <div class="container">
+                <div class="row" data-aos="zoom-out">
+                    <div class="col-lg-9 text-center text-lg-start">
+                        <h3>Need help with QuickLinks? Join the Discord Server!</h3>
+                        <p>You will get a guaranteed response in the Discord server. The server is the easiest way to
+                            receive support.</p>
+                    </div>
+                    <div class="col-lg-3 cta-btn-container text-center">
+                        <a class="cta-btn align-middle" href="https://discord.com/invite/WaPgUY5gd4">Join Server</a>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Cta Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <h3>MingsUtilities</h3>
+            <br>
+            <div class="social-links">
+                <a href="https://twitter.com/MingsUtilities" class="twitter" target="_blank"><i
+                        class="bi bi-twitter"></i></a>
+                <a href="https://github.com/MingTheNoob" class="github" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://discord.com/invite/WaPgUY5gd4" class="discord" target="_blank"><i
+                        class="bi bi-discord"></i></a>
+            </div>
+            <div class="div-w29jdn">
+                <a href="/legal/terms">Terms</a> &middot; <a href="/legal/privacy">Privacy</a> &middot; <a
+                    href="/legal/MPSL">MPSL</a>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+    <!-- JS -->
+    <script src="https://cdn.mingsutilities.com/utilities/js/purecounter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.bundle.min.js"
+        integrity="sha512-BOsvKbLb0dB1IVplOL9ptU1EYA+LuCKEluZWRUYG73hxqNBU85JBIBhPGwhQl7O633KtkjMv8lvxZcWP+N3V3w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"
+        integrity="sha512-S/H9RQ6govCzeA7F9D0m8NGfsGf0/HjJEiLEfWGaMCjFzavo+DkRbYtZLSO+X6cZsIKQ6JvV/7Y9YMaYnSGnAA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+        integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js"
+        integrity="sha512-k2o1KZdvUi59PUXirfThShW9Gdwtk+jVYum6t7RmyCNAVyF9ozijFpvLEWmpgqkHuqSWpflsLf5+PEW6Lxy/wA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
+        integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/dist/boxicons.min.js"
+        integrity="sha512-VTptlAlSWKaYE3DbrmwNYTzZg1zO6CtoGxplxlHxObgfLiCcRYDBqzTUWE/0ANUmyfYR7R227ZirV/I4rQsPNA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.mingsutilities.com/utilities/js/main.js"></script>
+</body>
+
+</html>
