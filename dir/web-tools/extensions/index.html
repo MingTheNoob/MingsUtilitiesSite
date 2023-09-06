@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Normal meta -->
+        <meta charset="UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="description"
+            content="MingsUtilities Web Extensions">
+        <meta name="keywords" content="MingsUtilities, Ming, Ming's Utilities, Ming's Utilities Team, Ming's Utilities Team, web, extensions, extension, webext, ext, firefox, chrome, quicklinks">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <meta name="title" content="MingsUtilities">
+        <meta name="author" content="MingTheNoob">
+        <meta name="revisit-after" content="7 days">
+        <meta name="robots" content="index, follow">
+        <link rel="manifest" href="https://cdn.mingsutilities.com/utilities/manifests/site.webmanifest">
+        <!-- OpenGraph and Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://mingsutilities.com/web-tools/extensions">
+        <meta property="og:title" content="Extensions | MingsUtilities">
+        <meta property="og:description"
+            content="MingsUtilities Web Extensions">
+        <meta property="og:image" content="https://cdn.mingsutilities.com/utilities/web-tools/extensions/imgs/cover.png">
+        <!-- Twitter and Discord -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://mingsutilities.com/web-tools/extensions">
+        <meta name="twitter:title" content="Extensions | MingsUtilities">
+        <meta name="twitter:description"
+            content="MingsUtilities Web Extensions">
+        <meta name="twitter:image" content="https://cdn.mingsutilities.com/utilities/web-tools/extensions/imgs/cover.png">
+        <meta name="twitter:creator" content="@MingTheNoob">
+        <meta name="twitter:site" content="@MingsUtilities">
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="57x57"
+            href="https://cdn.mingsutilities.com/utilities/imgs/favicon/apple/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="57x57"
+            href="https://cdn.mingsutilities.com/utilities/imgs/favicon/apple/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60"
+            href="https://cdn.mingsutilities.com/utilities/imgs/favicon/apple/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72"
+            href="https://cdn.mingsutilities.com/utilities/imgs/favicon/apple/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76"
+            href="https://cdn.mingsutilities.com/utilities/imgs/favicon/apple/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114"
+            href="https://cdn.mingsutilities.com/utilities/imgs/favicon/apple/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120"
+            href="https://cdn.mingsutilities.com/utilities/imgs/favicon/apple/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144"
+            href="https://cdn.mingsutilities.com/utilities/imgs/favicon/apple/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152"
+            href="https://cdn.mingsutilities.com/utilities/imgs/favicon/apple/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180"
+            href="https://cdn.mingsutilities.com/utilities/imgs/favicon/apple/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"
+            href="https://cdn.mingsutilities.com/utilities/imgs/mingsutilities.png">
+        <link rel="icon" type="image/png" sizes="16x16"
+            href="https://cdn.mingsutilities.com/utilities/imgs/favicon/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="https://cdn.mingsutilities.com/utilities/imgs/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96"
+            href="https://cdn.mingsutilities.com/utilities/imgs/favicon/favicon-96x96.png">
+        <link rel="manifest" href="https://cdn.mingsutilities.com/utilities/imgs/favicon/manifests/manifest.json">
+        <meta name="msapplication-TileColor" content="#35286c">
+        <meta name="msapplication-TileImage"
+            content="https://cdn.mingsutilities.com/utilities/imgs/favicon/ms/ms-icon-144x144.png">
+        <meta name="theme-color" content="#8b0ab6">
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+            integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+            integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+            integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css"
+            integrity="sha512-cn16Qw8mzTBKpu08X0fwhTSv02kK/FojjNLz0bwp2xJ4H+yalwzXKFw/5cLzuBZCxGWIA+95X4skzvo8STNtSg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css"
+            integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.2.0/swiper-bundle.min.css"
+            integrity="sha512-s6khMl5GDS1HbQ5/SwL1wzMayPwHXPjKoBN5kHUTDqKEPkkGyEZWKyH2lQ3YO2q3dxueG3rE0NHjRawMHd2b6g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"
+            integrity="sha512-/VYneElp5u4puMaIp/4ibGxlTd2MV3kuUIroR3NSQjS2h9XKQNebRQiyyoQKeiGE9mRdjSCIZf9pb7AVJ8DhCg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.mingsutilities.com/utilities/css/main.css" rel="stylesheet">
+        <!-- Title -->
+        <title>Extensions | MingsUtilities</title>
+    </head>
+    <body>
+        <!-- ======= NavBar ======= -->
+        <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="logo">
+                    <h1 id="heading-k8r59z"><a href="/">MingsUtilities</a></h1>
+                </div>
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li>
+                            <a class="nav-link scrollto" href="/">Home</a>
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="/about">About</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="active" href="/dir/"><span>Directory</span> <i class="bi bi-chevron-down"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="/dir/">Full Directory</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="active" href="/dir/web-tools/"><span>WebTools</span>
+                                        <i class="bi bi-chevron-right"></i>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a class="active" href="/dir/web-tools/extensions/">Web Extensions</a>
+                                        </li>
+                                        <li>
+                                            <a href="/dir/web-tools/userscripts/">Userscripts</a>
+                                        </li>
+                                        <li>
+                                            <a href="/dir/web-tools/userstyles/">Userstyles</a>
+                                        </li>
+                                        <li>
+                                            <a href="/dir/web-tools/web-apps/">Web Apps</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="/dir/internet-tools/">Internet Tools</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/MingTheNoob/issues/issues" target="_blank">Request Item/Report Bug</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="/donate">Donate</a>
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="/mingsnetwork">MingsNetwork</a>
+                        </li>
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav><!-- .navbar -->
+            </div>
+        </header><!-- End Header -->
+        <!-- ======= Hero Section ======= -->
+        <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+            <div id="next-j529hw" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="carousel-container">
+                        <h2 class="animate__animated animate__fadeInDown">QuickLinks</h2>
+                        <p class="animate__animated animate__fadeInUp">Currently this is the only extension offered. It is in Beta and updates are coming. Click the button below to go to the QuickLinks page.</p>
+                        <a href="/dir/web-tools/extensions/QuickLinks/" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-container">
+                        <h2 class="animate__animated animate__fadeInDown">SuperScript</h2>
+                        <p class="animate__animated animate__fadeInUp">SuperScript is upcoming and development will begin once QuickLinks is complete.</p>
+                        <a href="/dir/web-tools/extensions/SuperScript/" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#next-j529hw" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#next-j529hw" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+                </a>
+            </div>
+            <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+                <defs>
+                    <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+                </defs>
+                <g class="wave1">
+                    <use xlink:href="#wave-path" x="50" y="3" fill="rgba(24, 26, 27, 0.3)">
+                </g>
+                <g class="wave2">
+                    <use xlink:href="#wave-path" x="50" y="0" fill="rgba(31, 34, 35, 0.5)">
+                </g>
+                <g class="wave3">
+                    <use xlink:href="#wave-path" x="50" y="9" fill="rgba(24, 26, 27, .83)">
+                </g>
+            </svg>
+        </section><!-- End Hero -->
+        <main id="main">
+            <!-- ======= About Section ======= -->
+            <section id="about" class="about">
+                <div class="container">
+                    <div class="section-title" data-aos="zoom-out">
+                        <h2>Upcoming</h2>
+                        <p>Updates</p>
+                    </div>
+                    <div class="row content" data-aos="fade-up">
+                        <div class="col-lg-6">
+                            <h5>
+                                QuickLinks is currently the only extension offered. It is in Beta and the upcoming updates are listed below.
+                            </h5>
+                            <br>
+                            <ul>
+                                <li>
+                                    <i class="ri-calendar-todo-fill"></i> Add and edit your own custom comands
+                                </li>
+                                <br>
+                                <li>
+                                    <i class="ri-calendar-todo-fill"></i> Update the UI to be more user friendly and cater to the new features
+                                </li>
+                                <br>
+                                <li>
+                                    <i class="ri-calendar-todo-fill"></i> Redirect incorrect commands to the default search engine as a search query
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 pt-4 pt-lg-0">
+                            <br>
+                            <a href="/dir/web-tools/extensions/QuickLinks/" class="btn-learn-more">Download QuickLinks</a>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- End About Section -->
+            <!-- ======= Cta Section ======= -->
+            <section id="cta" class="cta">
+                <div class="container">
+                    <div class="row" data-aos="zoom-out">
+                        <div class="col-lg-9 text-center text-lg-start">
+                            <h3>Join the Discord Server!</h3>
+                            <p>Joining the Discord server is the easiest way to receive support. You can get support directly from Ming, if available, or you can get support by the others in the server.</p>
+                        </div>
+                        <div class="col-lg-3 cta-btn-container text-center">
+                            <a class="cta-btn align-middle" href="https://discord.com/invite/WaPgUY5gd4" target="_blank">Join Server</a>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- End Cta Section -->
+        </main><!-- End #main -->
+        <!-- ======= Footer ======= -->
+        <footer id="footer">
+            <div class="container">
+                <h3>MingsUtilities</h3>
+                <br>
+                <div class="social-links">
+                    <a href="https://mastodon.world/@MingsUtilities" class="mastodon" target="_blank">
+                        <i class="bi bi-mastodon"></i>
+                    </a>
+                    <a href="https://github.com/MingTheNoob" class="github"><i class="bi bi-github"></i></a>
+                    <a href="https://discord.com/invite/WaPgUY5gd4" class="discord"><i class="bi bi-discord"></i></a>
+                </div>
+                <div class="div-w29jdn">
+                    <a href="/legal/terms">Terms</a> &middot; <a href="/legal/privacy">Privacy</a> &middot; <a href="/legal/MPSL">MPSL</a>
+                </div>
+            </div>
+        </footer><!-- End Footer -->
+
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+        <!-- JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+            integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js"
+            integrity="sha512-ToL6UYWePxjhDQKNioSi4AyJ5KkRxY+F1+Fi7Jgh0Hp5Kk2/s8FD7zusJDdonfe5B00Qw+B8taXxF6CFLnqNCw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"
+            integrity="sha512-S/H9RQ6govCzeA7F9D0m8NGfsGf0/HjJEiLEfWGaMCjFzavo+DkRbYtZLSO+X6cZsIKQ6JvV/7Y9YMaYnSGnAA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+            integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.2.0/swiper-bundle.min.js"
+            integrity="sha512-QwpsxtdZRih55GaU/Ce2Baqoy2tEv9GltjAG8yuTy2k9lHqK7VHHp3wWWe+yITYKZlsT3AaCj49ZxMYPp46iJQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
+            integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.mingsutilities.com/utilities/js/main.js"></script>
+    </body>
+</html>
